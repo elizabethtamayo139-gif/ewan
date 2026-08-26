@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HTML toturial</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #2563eb;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            background-color: #1e293b;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #60a5fa;
+        }
+
+        section {
+            background-color: white;
+            margin: 25px auto;
+            padding: 25px;
+            width: 85%;
+            max-width: 900px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #2563eb;
+        }
+
+        code {
+            background-color: #e5e7eb;
+            padding: 3px 6px;
+            border-radius: 4px;
+        }
+
+        pre {
+            background-color: #111827;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #2563eb;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f1f5f9;
+        }
+
+        footer {
+            background-color: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    
+    <header>
+        <h1>ðŸ“š Easy HTML Tutorial</h1>
+        <p>A simple guide for students who are struggling with HTML, like tabling, navigation bars, </p>
+    </header>
+
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#basics">HTML Basics</a>
+        <a href="#tables">HTML Tables</a>
+        <a href="#navigation">Navigation</a>
+		<a href="Contact Us.html">Contact Us</a>
+	    
+    </nav>
+
+
+   
+    <section id="home">
+        <h2>ðŸ WELCOME TO OUR TOTURIAL WEBSITE</h2>
+
+        <p>
+            HTML stands for <b>HyperText Markup Language</b>.
+            It is used to create the structure of a webpage.
+        </p>
+
+        <p>
+           Html is so hard if you're first timer 
+        </p>
+
+        <h3>Basic HTML Structure</h3>
+
+        <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+    &lt;title&gt;My Website&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+    &lt;h1&gt;Hello World!&lt;/h1&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+        </pre>
+    </section>
+
+
+   
+    <section id="basics">
+        <h2>ðŸ’» HTML Basic Coding</h2>
+
+        <h3>1. Heading</h3>
+
+        <p>
+            Headings are used for titles and subtitles.
+        </p>
+
+        <pre>
+&lt;h1&gt;This is a Heading&lt;/h1&gt;
+&lt;h2&gt;This is a Smaller Heading&lt;/h2&gt;
+        </pre>
+
+        <h3>2. Paragraph</h3>
+
+        <pre>
+&lt;p&gt;This is my paragraph; We are group 1 and we love to learn how to do html&lt;/p&gt;
+        </pre>
+
+        <h3>3. Bold Text</h3>
+
+        <pre>
+&lt;b&gt;This text is bold.&lt;/b&gt;
+        </pre>
+
+        <h3>4. Image, Video, Audio</h3>
+
+        <pre>
+&lt;img src="MYPHOTO.jpg" width="300"&gt;
+        </pre>
+		
+		<pre>
+&lt;source src="myvideo.mp4" type="video/mp4"&gt;
+	</pre>
+	
+	<pre>
+&lt;source src="myaudio.mp3" type="audio/mpeg"&gt;
+    </pre>
+	
+        <h3>7. Link</h3>
+
+        <pre>
+&lt;a href="https://www.google.com"&gt;
+    Visit Google
+&lt;/a&gt;
+        </pre>
+    </section>
+
+
+  
+    <section id="tables">
+        <h2>ðŸ“Š HTML Tables</h2>
+
+        <p>
+            Tables are used to organize information into
+            rows and columns.
+        </p>
+
+        <h3>Basic Table Code</h3>
+
+        <pre>
+&lt;table&gt;
+
+    &lt;tr&gt;
+        &lt;th&gt;Name&lt;/th&gt;
+        &lt;th&gt;Age&lt;/th&gt;
+        &lt;th&gt;Grade&lt;/th&gt;
+    &lt;/tr&gt;
+
+    &lt;tr&gt;
+        &lt;td&gt;John&lt;/td&gt;
+        &lt;td&gt;15&lt;/td&gt;
+        &lt;td&gt;10&lt;/td&gt;
+    &lt;/tr&gt;
+
+&lt;/table&gt;
+        </pre>
+
+        <h3>Example Table</h3>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Grade</th>
+            </tr>
+
+            <tr>
+                <td>John</td>
+                <td>15</td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <td>Maria</td>
+                <td>16</td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <td>Alex</td>
+                <td>15</td>
+                <td>10</td>
+            </tr>
+        </table>
+
+        <h3>Remember:</h3>
+
+        <ul>
+            <li><code>&lt;table&gt;</code> = creates a table</li>
+            <li><code>&lt;tr&gt;</code> = table row</li>
+            <li><code>&lt;th&gt;</code> = table heading</li>
+            <li><code>&lt;td&gt;</code> = table data</li>
+        </ul>
+    </section>
+
+
+    <section id="navigation">
+        <h2>ðŸ§­ HTML Navigation</h2>
+
+        <p>
+            Navigation allows visitors to move from one
+            section or webpage to another.
+        </p>
+
+        <h3>Navigation Example</h3>
+
+        <pre>
+&lt;nav&gt;
+
+    &lt;a href="#home"&gt;Home&lt;/a&gt;
+
+    &lt;a href="#about"&gt;About&lt;/a&gt;
+
+    &lt;a href="#contact"&gt;Contact&lt;/a&gt;
+
+&lt;/nav&gt;
+        </pre>
+
+        <h3>What does href mean?</h3>
+
+        <p>
+            <code>href</code> tells the browser where the link
+            should go.
+        </p>
+
+        <p>
+            For example:
+        </p>
+
+        <pre>
+&lt;a href="#home"&gt;Home&lt;/a&gt;
+        </pre>
+
+        <p>
+            The <code>#home</code> connects to an element with
+            <code>id="home"</code>.
+        </p>
+
+        <pre>
+&lt;section id="home"&gt;
+
+    &lt;h2&gt;Welcome Home&lt;/h2&gt;
+
+&lt;/section&gt;
+        </pre>
+    </section>
+
+
+   
+    <section>
+        <h2>â­ Tips for Beginners</h2>
+
+        <ol>
+            <li>Start with simple HTML codes.</li>
+            <li>Always close your HTML tags.</li>
+            <li>Practice typing the code yourself.</li>
+            <li>Check your spelling carefully.</li>
+            <li>Save your file with <b>.html</b>.</li>
+            <li>Open the file using a web browser.</li>
+        </ol>
+
+        <h3>HTML Elements and Their Purposes</h3>
+
+    <table>
+
+        <tr>
+            <th>HTML Element</th>
+            <th>Purpose</th>
+        </tr>
+
+        <tr>
+            <td><code>&lt;html&gt;</code></td>
+            <td>Defines the whole HTML document.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;head&gt;</code></td>
+            <td>Contains information about the webpage.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;title&gt;</code></td>
+            <td>Sets the title shown on the browser tab.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;body&gt;</code></td>
+            <td>Contains the visible content of the webpage.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;h1&gt;</code></td>
+            <td>Creates the main heading.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;p&gt;</code></td>
+            <td>Creates a paragraph.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;a&gt;</code></td>
+            <td>Creates a hyperlink.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;img&gt;</code></td>
+            <td>Displays an image.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;br&gt;</code></td>
+            <td>Creates a line break.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;div&gt;</code></td>
+            <td>Creates a general container for content.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;span&gt;</code></td>
+            <td>Groups inline content.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;ul&gt;</code></td>
+            <td>Creates an unordered/bullet list.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;ol&gt;</code></td>
+            <td>Creates an ordered/numbered list.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;li&gt;</code></td>
+            <td>Defines a list item.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;table&gt;</code></td>
+            <td>Creates a table.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;tr&gt;</code></td>
+            <td>Creates a table row.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;th&gt;</code></td>
+            <td>Creates a table heading.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;td&gt;</code></td>
+            <td>Creates a table data cell.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;form&gt;</code></td>
+            <td>Creates a form for user input.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;input&gt;</code></td>
+            <td>Creates an input field.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;label&gt;</code></td>
+            <td>Provides a label for an input.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;button&gt;</code></td>
+            <td>Creates a clickable button.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;select&gt;</code></td>
+            <td>Creates a dropdown menu.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;option&gt;</code></td>
+            <td>Creates an option inside a dropdown.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;textarea&gt;</code></td>
+            <td>Creates a multi-line text input.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;header&gt;</code></td>
+            <td>Defines the header of a webpage or section.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;nav&gt;</code></td>
+            <td>Contains navigation links.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;main&gt;</code></td>
+            <td>Contains the main content of the webpage.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;section&gt;</code></td>
+            <td>Groups related content.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;footer&gt;</code></td>
+            <td>Defines the footer of a webpage.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;audio&gt;</code></td>
+            <td>Adds audio to a webpage.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;video&gt;</code></td>
+            <td>Adds video to a webpage.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;iframe&gt;</code></td>
+            <td>Embeds another webpage or content.</td>
+        </tr>
+
+        <tr>
+            <td><code>&lt;script&gt;</code></td>
+            <td>Adds JavaScript to a webpage.</td>
+        </tr>
+
+    </table>
+    </section>
+
+
+    <footer>
+        <p>ðŸ’™ Keep practicing! HTML becomes easier with practice.</p>
+        <p>HTML Tutorial for Beginners</p>
+		<p>THIS HTML TUTORIAL IS CREATED BY GROUP-1 FROM 10F-GARNET</p>
+    </footer>
+
+</body>
+</html>
